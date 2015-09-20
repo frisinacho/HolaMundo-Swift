@@ -26,6 +26,9 @@
                                 <rect key="frame" x="278" y="120" width="200" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="ContadorCaracteres:" destination="vXZ-lx-hvc" eventType="editingChanged" id="hJc-C9-9jI"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
