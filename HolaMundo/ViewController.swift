@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var lblSaludo: UILabel!
-    
     @IBOutlet var lblContador: UILabel!
     
     override func viewDidLoad() {
