@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func ContadorCaracteres(sender: UITextField) {
+        var contador = 10 - count(sender.text.utf16)
     }
 
 }
