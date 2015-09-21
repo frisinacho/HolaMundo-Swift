@@ -35,5 +35,8 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func Saludar(sender: UIButton) {
+        
+    }
 }
 
