@@ -51,6 +51,7 @@
                     <connections>
                         <outlet property="lblContador" destination="gAn-4v-rHX" id="VTH-jH-XcC"/>
                         <outlet property="lblSaludo" destination="ash-1Y-Vnw" id="wDT-rK-oD3"/>
+                        <outlet property="txtNombre" destination="IU0-20-LfO" id="Tjo-Vh-CEs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
