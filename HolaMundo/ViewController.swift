@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var lblSaludo: UILabel!
     @IBOutlet var lblContador: UILabel!
+    @IBOutlet var txtNombre: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
