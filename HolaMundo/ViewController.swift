@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         
         if contador < 0 {
             lblContador.textColor = UIColor(red: 255, green: 0, blue: 0, alpha: 1)
+        }else{
+            lblContador.textColor = UIColor(red: 0, green: 255, blue: 0, alpha: 1)
         }
     }
 
