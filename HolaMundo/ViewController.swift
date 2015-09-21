@@ -27,6 +27,10 @@ class ViewController: UIViewController {
         var contador = 10 - count(sender.text.utf16)
         
         lblContador.text = "\(contador)"
+        
+        if contador < 0 {
+            lblContador.textColor = UIColor(red: 255, green: 0, blue: 0, alpha: 1)
+        }
     }
 
 }
